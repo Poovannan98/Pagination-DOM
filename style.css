@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(223, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#content >div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#content img{
+    max-width: 500px;
+    margin: 1rem;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav span{
+    font-size: 2rem;
+    border: 3px solid black;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    background-color: lightslategray;
+}
